@@ -26,7 +26,7 @@ header{
     height: 30px;
     align-self: center;
 }
-.HeaderInfo{
+.info{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,16 +35,16 @@ header{
     width: 574px;
     margin-right: 40px;
 }
-.HeaderInfo-Child1{
+.info-Child1{
     justify-content: space-evenly;
 }
-.headerInfoButtons{
+.infoButtons{
     background-color: rgb(240, 240, 240);
     color: rgb(36, 61, 108);
     border: 2px solid rgb(240, 240, 240);
 
 }
-.headerInfoButtons:hover{
+.infoButtons:hover{
     color: rgb(104, 157, 244);
     text-decoration: underline;
     text-underline-offset: 14px;
@@ -118,7 +118,10 @@ textarea:focus , input:focus{
     flex-direction: row;
     justify-content: space-between;
 }
-.ContentContainer1{
+.content{
+    margin-bottom: 190px;
+}
+.container1{
     display: flex;
     flex-direction: column;
     margin: 30px;
@@ -129,40 +132,40 @@ textarea:focus , input:focus{
     border-radius: 1.4rem;
     border: none;
 }
-.book1buttons{
+.container1roundedbuttons{
     border: 2px solid white;
     border-radius: 50%;
     width: 14px;
     height: 14px;
 }
-.givingSpace{
+.roundedButtons{
     display: flex;
     justify-content: space-around;
     width: 80px;
     margin: 20px;
 }
-.canvas1{
+.container1item1{
     width: 252px;
     height: 8px;
     background-color: #3F6AB0;
 
 }
-.canvas2{
+.container1item2{
     width: 145px;
     height: 8px;
     background: #5984CB;
 }
-.canvas3{
+.container1item3{
     width:425px;
     height: 8px;
     background: white;
 }
-.canvas4{
+.container1item4{
     width: 252px;
     height: 8px;
     background-color: #A7B9CE;
 }
-.canvas5{
+.container1item5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -172,21 +175,21 @@ textarea:focus , input:focus{
     margin-left: 20px;
     margin-bottom: 80px;
 }
-.canvas5-child1{
+.container1item5-child1{
     border-radius: 4px;
     background: white;
     width: 210px;
     height: 93px;
     align-self: center;
 }
-.canvas1,.canvas2,
-.canvas3,.canvas4{
+.container1item1,.container1item2,
+.container1item3,.container1item4{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
 }
-.ContentContainer2{
+.container2{
     display: flex;
     width: 439px;
     height: 275px;
@@ -198,7 +201,7 @@ textarea:focus , input:focus{
     top: 660px;
     left: 221px;
 }
-#ContentContainer2Button{
+#container2Button{
     margin-bottom: 20px;
     width: 414px;
     height: 65px;
@@ -212,8 +215,8 @@ textarea:focus , input:focus{
     width: 400px;
     flex-direction: column;
     justify-content: space-between;
-    height: 250px;
-    margin-right: 40px;
+    height: 300px;
+    margin-right: 80px;
 }
 .headTitles{
     font-family: 'Open Sans', sans-serif;
@@ -235,4 +238,36 @@ textarea:focus , input:focus{
     background: #3A81F6;
     color: white;
     border: none
+}
+.secondContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.BookInfos2{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 80px;
+}
+.ContentContainer3{
+    display: flex;
+    width: 439px;
+    height: 275px;
+    border-radius: 16px;
+    background-color: #8797B2;
+    align-items: flex-start;
+    position: absolute;
+    top: 1300px;
+    right: 130px;
+}
+#ContentContainer3Button{
+    margin-bottom: 20px;
+    width: 414px;
+    height: 65px;
+    border-radius: 16px;
+    background-color: #ABC5F0;
+    color: white;
+    border: 2px solid #ABC5F0;
 }
