@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+}
+html{
+    background: rgb(200, 208, 218);
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+}
+.HeaderHeadLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+    align-self: center;
+}
+#headImg{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    width: 574px;
+    margin-right: 40px;
+}
+.info-Child1{
+    justify-content: space-evenly;
+}
+.infoButtons{
+    background-color: rgb(240, 240, 240);
+    color: rgb(36, 61, 108);
+    border: 2px solid rgb(240, 240, 240);
+
+}
+.infoButtons:hover{
+    color: rgb(104, 157, 244);
+    text-decoration: underline;
+    text-underline-offset: 14px;
+}
+#child2Input{
+    border: none;
+    background: rgb(240, 240, 240);
+}
+
+textarea:focus , input:focus{
+    outline: none;
+}
+#signUp{
+    background: rgb(200, 208, 218);
+    border: 2px solid rgb(200, 208, 218);
+    border-radius: 3px;
+    color: rgb(240, 240, 240);
+}
+#signUp:hover{
+    color: #173163;
+}
+.subHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-evenly;
+}
+#subHeading{
+    color: rgb(23, 49, 99);
+    font-smooth: auto;
+}
+#subParagraph{
+    color: rgb(65,86,127);
+    font-smooth: auto;
+}
+.subHeaderDiv1{
+    width: 400px;
+}
+#toScroll{
+    text-decoration: none;
+    color: rgb(104, 157, 244);
+    margin-left: 222px;
+}
+.containContent{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    width: 800px;
+ 
+}
+.headlineContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    height: 150px;
+    justify-content: space-evenly;
+}
+#headlineContainerh3{
+    font-size: 25px;
+    color: #173163;
+    font-family: 'Opens Sans', sans-serif;
+}
+#headlineContainerh4{
+    font-size: 19px;
+    color: #173163;
+}
+.containBooks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content{
+    margin-bottom: 190px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 2px solid black;
+    width: 486px;
+    height: 384px;
+    background-color:  #8D939B;
+    border-radius: 1.4rem;
+    border: none;
+}
+.container1roundedbuttons{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+.roundedButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    margin: 20px;
+}
+.container1item1{
+    width: 252px;
+    height: 8px;
+    background-color: #3F6AB0;
+
+}
+.container1item2{
+    width: 145px;
+    height: 8px;
+    background: #5984CB;
+}
+.container1item3{
+    width:425px;
+    height: 8px;
+    background: white;
+}
+.container1item4{
+    width: 252px;
+    height: 8px;
+    background-color: #A7B9CE;
+}
+.container1item5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    height: 98px;
+    
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+.container1item5-child1{
+    border-radius: 4px;
+    background: white;
+    width: 210px;
+    height: 93px;
+    align-self: center;
+}
+.container1item1,.container1item2,
+.container1item3,.container1item4{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.container2{
+    display: flex;
+    width: 439px;
+    height: 275px;
+    border-radius: 16px;
+    background-color: #8797B2;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 660px;
+    left: 221px;
+}
+#container2Button{
+    margin-bottom: 20px;
+    width: 414px;
+    height: 65px;
+    border-radius: 16px;
+    background-color: #ABC5F0;
+    color: white;
+    border: 2px solid #ABC5F0;
+}
+.BookInfos1{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-right: 80px;
+}
+.headTitles{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #173163;
+}
+.headParagraphs{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    color: #455A82;
+}
+#comicButtons{
+    width: 121px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    background: #3A81F6;
+    color: white;
+    border: none
+}
