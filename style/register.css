@@ -250,3 +250,16 @@ button:active {
     font-family: 'Jost', sans-serif;
     font-size: 15px;
 }
+
+.showPassword {
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+#showPw {
+    margin-left: -50px;
+    font-weight: 600;
+
+}

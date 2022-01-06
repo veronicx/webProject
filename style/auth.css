@@ -162,12 +162,13 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 120px;
 }
 
 h1 {
     font-family: 'Jost', sans-serif;
     font-size: 55px;
+
 }
 
 input {
@@ -215,4 +216,19 @@ button:active {
     transition: 0.2s ease-in-out;
     font-size: 15px;
     box-shadow: 4px 4px #2D5F7C;
+}
+
+#username {
+    margin-top: -20px;
+}
+
+.showPassword {
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+#showPw {
+    margin-left: -40px;
+    font-weight: 600;
 }
