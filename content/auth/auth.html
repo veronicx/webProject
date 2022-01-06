@@ -33,11 +33,14 @@
 
                     <input type="text" placeholder="Username.." id="username">
                     <input type="password" placeholder="Password.." id="password">
+                    <div class="showPassword">
+                    <input type="checkbox" onclick="showPassword()" id="checkboxMain">
+                    <label for="checkbox" id="showPw">Show Password</label>
+                     </div>
                 </div>
+                
                 <div>
-
                     <button onclick="validateLogin()">Login</button>
-                    <input type="checkbox" onclick="showPassword()">Show Password
                 </div>
             </div>
         </center>
