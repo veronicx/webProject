@@ -9,19 +9,19 @@ authorList = [
         "Blerina",
         "Restelica",
         20,
-        "UI/UX Designer",
+        "Student",
    ),
     new Author(
         "Enis",
         "Halilaj",
         20,
-        "Quality Assurance",
+        "Student",
      ),
     new Author(
         "Veron",
         "Ibishi",
         19,
-         "Vue Developer",
+         "Student",
       )
 ]
 function renderAuthors() {
