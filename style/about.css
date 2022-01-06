@@ -265,3 +265,7 @@ h1 {
 .card {
     text-align: center;
 }
+
+#item1-child2 {
+    color: #FF7373;
+}
